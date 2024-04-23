@@ -1,7 +1,8 @@
 service: sls-aws-java-spring-cloud-function-demo
 provider:
   name: aws
-  runtime: java8
+  region: us-east-1
+  runtime: java11
   timeout: 10
 package:
   artifact: target/aws-java-spring-cloud-function-demo-0.0.1-SNAPSHOT-aws.jar
